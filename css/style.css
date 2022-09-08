@@ -74,6 +74,10 @@ section a{
   font-size: 18px;
 }
 
+section a:hover{
+  color: rgba(255, 255, 255, 0.75);
+}
+
 section .col{
   float: left;
   background-color: #0f0e17;
