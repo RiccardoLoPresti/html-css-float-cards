@@ -43,14 +43,17 @@ main p{
 
 /* SECTION */
 section .col{
-  background-color: #0f0e17;
   float: left;
+  background-color: #0f0e17;
+  width: calc(100% / 3 - 26.7px);
+
 }
 
 section img{
   height: 120px;
   vertical-align: middle;
-
+  float: left;
+  padding-right: 20px;
 }
 
 section h2,
@@ -62,15 +65,21 @@ section span{
 
 section h2{
   text-transform: uppercase;
+  font-size: 1.3rem;
 }
 
 section a{
   text-decoration: none;
   color: #6ecbe3;
+  font-size: 1.1rem;
 }
 
 section .info{
-  float: right;
   padding: 20px;
   height: 120px;
+}
+
+section .col.mid{
+  margin-left: 40px;
+  margin-right: 40px;
 }
