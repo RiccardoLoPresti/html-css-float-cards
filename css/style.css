@@ -15,6 +15,8 @@ body{
   margin: 0 auto;
 }
 
+
+/* UTILITY */
 .debug{
   background-color: rgba(250, 235, 215, 0.363);
   border: 1px solid black;
@@ -26,6 +28,7 @@ body{
   clear: both;
 }
 
+
 /* HEADER */
 header h1{
   font-weight: 700;
@@ -36,6 +39,7 @@ header h1{
   font-size: 2.5rem;
 }
 
+
 /* MAIN */
 main p{
   text-align: justify;
@@ -43,15 +47,8 @@ main p{
   padding-bottom: 40px;
 }
 
-/* SECTION */
-section .col{
-  float: left;
-  background-color: #0f0e17;
-  width: calc(100% / 3 - 26.7px);
-  margin-bottom: 50px;
-  box-shadow:0px 0px 8px 1px #0000008a;
-}
 
+/* SECTION */
 section img{
   height: 100px;
   vertical-align: middle;
@@ -77,12 +74,20 @@ section a{
   font-size: 18px;
 }
 
-section .info{
-  padding: 10px;
-  height: 100px;
+section .col{
+  float: left;
+  background-color: #0f0e17;
+  width: calc(100% / 3 - 26.7px);
+  margin-bottom: 50px;
+  box-shadow:0px 0px 8px 1px #0000008a;
 }
 
 section .col.mid{
   margin-left: 40px;
   margin-right: 40px;
+}
+
+section .info{
+  padding: 10px;
+  height: 100px;
 }
